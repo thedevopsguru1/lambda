@@ -23,7 +23,8 @@ def lambda_handler(event, context):
                     {
                         "Key": "Name",
                         "Value": "yannick"
-                    }
+                    },
+                    {"Key": "TEAMS", "Value": "DEVOPS"}
                 ]
             )
             return {
